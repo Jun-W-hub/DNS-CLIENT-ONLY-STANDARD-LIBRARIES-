@@ -1,0 +1,102 @@
+Script started on 2019-10-03 17:08:54-0700
+
+wenjiexi@ubuntu:~/Desktop$ python3 my-dns-client.py
+Please enter the hostname: gmu.edu
+Preparing DNS query..
+Contacting DNS server..
+Sending DNS query..
+DNS response received (attempt 1 of 3)
+Processing DNS response..
+--------------------------
+hearder.ID = 59715
+header.QR = 0
+header.OPCODE = 0
+header.RD = 1
+header.QDCOUNT = 1
+--------------------------
+question.QNAME = gmu.edu
+question.QTYPE = A
+question.QCLASS = IN
+=========== Response ===========
+Trasaction ID:  59715
+Flags:  0x8180
+(No error)
+Questions:  1
+Answer RRs:  1
+Authority RRs:  0
+Additional RRs:  0
+=========== Answer 1 ===========
+answer.NAME =  gmu.edu
+answer.TYPE = A
+answer.CLASS = IN
+answer.TTL =  21599
+answer.RDLENGTH =  4
+answer.RDATA = 129.174.1.59
+
+wenjiexi@ubuntu:~/Desktop$ python3 my-dns-client.py
+Please enter the hostname: google.com
+Preparing DNS query..
+Contacting DNS server..
+Sending DNS query..
+DNS response received (attempt 1 of 3)
+Processing DNS response..
+--------------------------
+hearder.ID = 12378
+header.QR = 0
+header.OPCODE = 0
+header.RD = 1
+header.QDCOUNT = 1
+--------------------------
+question.QNAME = google.com
+question.QTYPE = A
+question.QCLASS = IN
+=========== Response ===========
+Trasaction ID:  12378
+Flags:  0x8180
+(No error)
+Questions:  1
+Answer RRs:  1
+Authority RRs:  0
+Additional RRs:  0
+=========== Answer 1 ===========
+answer.NAME =  google.com
+answer.TYPE = A
+answer.CLASS = IN
+answer.TTL =  299
+answer.RDLENGTH =  4
+answer.RDATA = 172.217.13.78
+
+wenjiexi@ubuntu:~/Desktop$ python3 my-dns-client.py
+Please enter the hostname: facebook.com
+Preparing DNS query..
+Contacting DNS server..
+Sending DNS query..
+DNS response received (attempt 1 of 3)
+Processing DNS response..
+--------------------------
+hearder.ID = 3735
+header.QR = 0
+header.OPCODE = 0
+header.RD = 1
+header.QDCOUNT = 1
+--------------------------
+question.QNAME = facebook.com
+question.QTYPE = A
+question.QCLASS = IN
+=========== Response ===========
+Trasaction ID:  3735
+Flags:  0x8180
+(No error)
+Questions:  1
+Answer RRs:  1
+Authority RRs:  0
+Additional RRs:  0
+=========== Answer 1 ===========
+answer.NAME =  facebook.com
+answer.TYPE = A
+answer.CLASS = IN
+answer.TTL =  299
+answer.RDLENGTH =  4
+answer.RDATA = 31.13.66.35
+
+Script done on 2019-10-03 17:09:32-0700
